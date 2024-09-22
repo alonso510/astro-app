@@ -1,0 +1,1 @@
+function n(){const e=document.querySelector(".menu-toggle"),t=document.querySelector(".nav-links");e&&t&&e.addEventListener("click",()=>{t.classList.toggle("active"),e.classList.toggle("active")})}n();document.addEventListener("astro:page-load",n);
